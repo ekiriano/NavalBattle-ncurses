@@ -79,7 +79,7 @@ class Game
     FrameCell frameCell[50][50], oldFrameCell[50][50];
     FrameCell enemyFrameCell[50][50], enemyOldFrameCell[50][50];
 
-    //could have also used a stack, but i don't know if i am allowed..
+    
     Move move[10000]; // the maximum number of moves would be 2 * windowDim^2
 
     char fullChar;
